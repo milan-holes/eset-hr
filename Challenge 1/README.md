@@ -1,34 +1,63 @@
-# Challenge name: Facebook "Wall"
+# Challenge Name: Facebook "Wall"
 
-## Coding Platform: https://codesandbox.io/ | https://github.com
-## JS library: Vue | React
+## Coding Platforms
+- [CodeSandbox](https://codesandbox.io/)  
+- [GitHub](https://github.com)
 
-### Pre-setup:
-- register / login to coding platform
-- create new sandbox / repository with your desired setup
+## JS Libraries
+- Vue  
+- React  
 
-### Description: 
-Create "FB Wall" like mini-application, that allows users to create new posts in rich editor. Users can react to the posts through comments (textarea), max to the two levels (first "main" comment + reaction to the comment). All data are stored in localStorage and when the browser is refreshed, data are restored from this storage. 
+---
 
-You don't need to focus on the style of this application too much, just the functionality.
+### Pre-setup
+1. Register or log in to your chosen coding platform.  
+2. Create a new sandbox or repository with your preferred setup.  
 
-### Usefull Libraries:
-Vue - Rich Editor: https://www.npmjs.com/package/@vueup/vue-quill
-React - Rich Editor: https://www.npmjs.com/package/react-quill
+---
 
-### Bonus points:
-- add a like button to posts and comments
-- the application will allow full CRUD (create, read, update & delete) operations to the user for both entities (posts & comments)
-- collapse comments (show only the first 2 main comments & all reactions to the comments should be also by default hidden)
-- paginate posts and show only the first 10 posts and the application should load the next 10 when users scroll down to a specific position
-- user can specify thumbnail for each post
-- use redux for state management
+### Description
+Your task is to build a **mini-application similar to the Facebook Wall**. The application should allow users to:  
+- Create new posts using a rich-text editor.  
+- React to posts with comments (limited to two levels: a main comment + a reply to that comment).  
 
-Main coding challenge takes about 50 minutes. After time limit, you will be prompted to send us link with your sollution in speficied coding platform. You have still possibility to gain additional bonus points outside of this interview session, but you have only next 48 hours to sends us your updated sollution. 
+All data should be stored in **localStorage**. When the browser is refreshed, the data must be restored from storage.  
 
-There are no restriction to use google / stackowerflow or other platforms. But you should be able to explain all of written code. 
+> **Note:** You don’t need to focus heavily on styling now. In live-coding session, functionality is the main priority.  
 
+---
 
+### Recommended Libraries
+- **Vue:** [@vueup/vue-quill](https://www.npmjs.com/package/@vueup/vue-quill)  
+- **React:** [react-quill](https://www.npmjs.com/package/react-quill)  
 
-Best of luck! 
+---
 
+### Bonus Points
+You can earn extra points by implementing the following:  
+- Add a "Like" button to posts and comments.  
+- Support full **CRUD** (Create, Read, Update, Delete) operations for both posts and comments.  
+- Allow comments to collapse:  
+  - Show only the first 2 main comments by default.  
+  - Hide all replies to comments until expanded.  
+- Paginate posts:  
+  - Show only the first 10 posts initially.  
+  - Load 10 more as the user scrolls down.  
+- Let users add a **thumbnail image** to each post.  
+
+---
+
+### Time Limit & Submission
+- The **main coding challenge** should take about **50 minutes**.  
+- After the time limit, you will be asked to share a link to your solution in the specified coding platform.  
+- You can still earn **bonus points** by submitting an updated solution within **48 hours after the interview session**.  
+
+---
+
+### Additional Notes
+- You are free to use **AI tools, Google, Stack Overflow, or any other platforms**.  
+- However, you must be able to explain all the code you submit.  
+
+---
+
+**Best of luck! 🚀**
